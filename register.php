@@ -7,7 +7,7 @@ error_reporting(0);
 session_start();
 
 if (isset($_SESSION['username'])) {
-    header("Location: index.php");
+    header("Location: login.php");
 }
 
 if (isset($_POST['submit'])) {
@@ -29,6 +29,7 @@ if (isset($_POST['submit'])) {
 				$email = "";
 				$_POST['password'] = "";
 				$_POST['cpassword'] = "";
+				header("Location: login.php");
 			} else {
 				echo "<script>alert('Woops! Something Wrong Went.')</script>";
 			}
@@ -51,9 +52,9 @@ if (isset($_POST['submit'])) {
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="styleRegister.css">
 
-	<title>Register Form - Pure Coding</title>
+	<title>Register Sport Event</title>
 </head>
 <body>
 	<div class="container">
@@ -63,7 +64,7 @@ if (isset($_POST['submit'])) {
 				<input type="text" placeholder="Username" name="username" value="<?php echo $username; ?>" required>
 			</div>
 			<div class="input-group">
-				<input type="email" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
+				<input type="text" placeholder="Email" name="email" value="<?php echo $email; ?>" required>
 			</div>
 			<div class="input-group">
 				<input type="password" placeholder="Password" name="password" value="<?php echo $_POST['password']; ?>" required>
@@ -74,7 +75,7 @@ if (isset($_POST['submit'])) {
 			<div class="input-group">
 				<button name="submit" class="btn">Register</button>
 			</div>
-			<p class="login-register-text">Have an account? <a href="index.php">Login Here</a>.</p>
+			<p class="login-register-text">Have an account? <a href="login.php">Login Here</a>.</p>
 		</form>
 	</div>
 </body>
