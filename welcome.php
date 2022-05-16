@@ -11,6 +11,7 @@ session_start();
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styleAll.css">
+<link rel="shortcut icon" type="image/jpg" href="appstore.png"/>
 </head>
 <body>
 <?php include 'navbar.php' ?>
@@ -28,7 +29,7 @@ session_start();
       <div class="container">
         <h2 style="padding-bottom:30px">Create an event</h2>
         <p class="title" style="padding-left:30px;padding-right:40px;padding-bottom:20px">By using our site you can create a sport event and invite your friends to attend. They have a specific number of days (set by you) in which they can confirm the places and not be taken by other site users. After those days, if there are some places available, anyone using the app can attend your event.</p>
-        <p><a href="createEvent.php" class="button" style="color:white"><b>Try it yourself</b></a></p>
+        <center style="padding-bottom:15px"><a href="nextEvents.php" class="button" style="width:50%;color:white"><b>Try it yourself</b></a></center>
       </div>
     </div>
   </div>
@@ -41,19 +42,19 @@ session_start();
         <p class="title"></p>
         <p class="title" style="padding-left:30px;padding-right:40px;padding-bottom:20px">If you do not have friends that play a sport that you like, you can simply search an event that suits you best. There are a series of fields that you can complete (day, sport type, location) in order to find the perfect event. </p>
         
-        <p><a href="searchEvent.php" class="button" style="color:white"><b>Try it yourself</b></a></p>
+        <center style="padding-bottom:15px;height:40px"><a href="nextEvents.php" class="button" style="width:50%;color:white"><b>Try it yourself</b></a></center>
       </div>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <img src="meme3.jpeg" alt="John" style="width: 80%;padding:5px">
+      <img src="https://static.playtech.ro/unsafe/1140x641/smart/filters:contrast(5):format(webp):quality(80)/https://playtech.ro/wp-content/uploads/2019/09/imagini-auzit-gif-internet-800x450.jpg" alt="John" style="width: 80%;padding:5px">
       <div class="container">
         <h2 style="padding-bottom:30px">Manage your next events</h2>
         <p class="title" style="padding-left:30px;padding-right:40px;padding-bottom:20px">In this site you can manage your events that you have joined. You can cancel your attendance in the case you do not want to participate anymore.</p>
         
-        <p><a href="nextEvents.php" class="button" style="color:white"><b>Try it yourself</b></a></p>
+        <center style="padding-bottom:15px"><a href="nextEvents.php" class="button" style="width:50%;color:white;height:35px;display:flex;justify-content:center;align-items:center"><b>Try it yourself</b></a></center>
       </div>
     </div>
   </div>

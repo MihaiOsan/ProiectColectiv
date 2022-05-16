@@ -50,7 +50,6 @@ body {
     outline: 0;
     display: block;
       width: 98%;
-      padding: 15px 20px;
       text-align: center;
       border: none;
       background: #ffa343;
@@ -59,7 +58,13 @@ body {
       font-size: 1.2rem;
       color: #FFF;
       cursor: pointer;
-      transition: .3s;}
+      transition: .3s;
+      width:50%;
+      color:white;
+      height:35px;
+      display:flex;
+      justify-content:center;
+      align-items:center}
   
   .button:hover {
     background-color: #555;

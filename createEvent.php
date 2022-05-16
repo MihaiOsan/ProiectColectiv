@@ -4,7 +4,7 @@
 <head>
 <title>Create an event</title>
 <link rel="stylesheet" type="text/css" href="styleAll.css">
-	
+<link rel="shortcut icon" type="image/jpg" href="appstore.png"/>
     
 </head>
 <body>
@@ -47,11 +47,36 @@
             </div>
             <div style="padding: 0 40px 0 40px" class="col-md-6">
                <div class="form-group">
-                  <label class="control-label">Days until the event goes public</label>
+                  <label class="control-label">Maximun number of people</label>
+                  <input type="text" class="form-control" name="daysPublic" id="daysPublic">
+               
+               </div>
+            </div>
+         </div>
+         <div class="row">
+           
+            <div style="padding: 0 40px 0 40px" class="col-md-6">
+               <div class="form-group">
+                  <label class="control-label">Duration (in hours)</label>
+                  <input type="text" class="form-control" name="daysPublic" id="daysPublic">
+               </div>
+            </div>
+            <div style="padding: 0 40px 0 40px" class="col-md-6">
+               <div class="form-group">
+                  <label class="control-label">Image URL</label>
                   <input type="text" class="form-control" name="daysPublic" id="daysPublic">
                </div>
             </div>
          </div>
+         <div class="row">
+            <div style="padding: 0 40px 0 40px">
+               <div class="form-group">
+                  <label class="control-label">Description</label>
+                  <input type="text" class="form-control" name="type" id="type">
+               </div>
+            </div>
+         </div>
+         
          <input type="submit" class="button" style="width:100%;" class="btn btn-primary" value="Submit" name="createEvent">
       </div>
    </div>

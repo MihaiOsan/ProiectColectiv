@@ -4,7 +4,7 @@
 <head>
 <title>Search for events</title>
 <link rel="stylesheet" type="text/css" href="styleAll.css">
-	
+<link rel="shortcut icon" type="image/jpg" href="appstore.png"/>
     
 </head>
 <body>
