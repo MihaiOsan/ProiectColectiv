@@ -13,7 +13,7 @@
 		.btn-primary {
 			width: 100%;
 		}
-        .card3 {
+        .card2 {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         
         }
@@ -33,7 +33,7 @@
   <link rel="stylesheet" type="text/css" href="styleNavbar.css">
 </head>
 <body>
-<nav class="card3">
+<nav class="card2">
   <div class="container-fluid">
     <ul class="nav navbar-nav" style="text-align:center;">
     <li><a  href="welcome.php" style="padding-left:30px;padding-right:30px;color:black"><b>Home</b></a></li>

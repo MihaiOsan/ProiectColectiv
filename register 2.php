@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
 				$_POST['cpassword'] = "";
 				header("Location: login.php");
 			} else {
-				echo "<script>alert('Woops! Something Went Wrong.')</script>";
+				echo "<script>alert('Woops! Something Wrong Went.')</script>";
 			}
 		} else {
 			echo "<script>alert('Woops! Email Already Exists.')</script>";

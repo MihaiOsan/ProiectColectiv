@@ -10,13 +10,6 @@ body {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
-  .column2 {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 8px;
-  }
   
   .column {
     text-align: center;
@@ -29,12 +22,6 @@ body {
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 15px;
-  }
-
-
-  .card2{
-    width: 30%;
-    display: inline-block;
   }
   
   .about-section {
@@ -85,11 +72,6 @@ body {
   
   @media screen and (max-width: 650px) {
     .column {
-      width: 100%;
-      display: block;
-    }
-
-    .column2{
       width: 100%;
       display: block;
     }
